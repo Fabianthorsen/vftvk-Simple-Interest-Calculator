@@ -16,9 +16,9 @@ h1 {
 .container {
   background-color: #fff;
   color: #000;
-  width: 300px;
-  padding: 20px;
-  border-radius: 25px;
+  width: 400px;
+  padding: 25px;
+  border-radius: 10%;
   margin: auto;
 }
 
