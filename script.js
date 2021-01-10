@@ -7,6 +7,12 @@ function compute() {
   var year = parseInt(t) + 2021;
   var result = document.getElementById('result');
 
+  if (p <= 0) {
+    alert('Enter a positive integer');
+    p.focus();
+    return false;
+  }
+
   result.innerHTML =
     "If you deposit <span class='highlight'>" +
     p +
@@ -18,5 +24,3 @@ function compute() {
     year +
     '</span>.';
 }
-
-        
